@@ -1,0 +1,18 @@
+ld 25 ra
+ld 0 rb
+ld 1 rc
+ld 1 rd
+ld 0 re
+cmp rb 1
+jg 11
+ld rc re
+add 1 rb
+jmp 6
+ld 0 x0
+add rc x0
+add rd x0
+ld rd rc
+ld $0 rd
+add 1 rb
+cmp rb ra
+jle 11

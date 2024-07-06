@@ -1,0 +1,12 @@
+ld 12 ra
+ld 19 rb
+ld 15 x8
+ld $8 rc
+ld rc rb
+ld ra $8
+cmp ra rb
+jle 11
+jge 4
+ld 11 rb
+ld 20 ra
+jmp 7
